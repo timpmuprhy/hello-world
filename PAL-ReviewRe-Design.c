@@ -1,5 +1,8 @@
-PAL evil Proc re-design
-Mailbox receipt
+/* -------------------------------------------------------------------
+ * Name: PAL evil Proc re-design
+ * Where: Mailbox receipt
+ * ------------------------------------------------------------------- */
+
 void Determine Who Assigned  {
   If Who not in addressee list
           Fwrd to Who
@@ -31,14 +34,16 @@ void BaselineAction ( SubmittalType ) {
                 IdentifyOwnerArchitect;
                 ReachOutToOwnerArchitect;
             }
-    S3:
-    S4:
-    SPR:
-    BCP:
-    S1-Consult:
-    S2-Consult:
-    S3-Consult:
-    S4-Consult:
+    /* future ******************
+        S3:
+        S4:
+        SPR:
+        BCP:
+        S1-Consult:
+        S2-Consult:
+        S3-Consult:
+        S4-Consult:
+      */
   }
 
 /* ****************************************************************
